@@ -13,6 +13,9 @@ $filepath = $FileBrowser.FileName
 $messageList = Import-Csv -Path "$filepath" 
 ####         end csv import       ####
 
+#connect to exchange online
+Connect-ExchangeOnline
+
 #list each message that is being worked on, and then release for all users
 $messageList | ForEach-Object {
     Write-Host "working on message: $($_.messageID)"
