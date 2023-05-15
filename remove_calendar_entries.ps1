@@ -3,6 +3,7 @@
 # author's note: I am not an expert
 # example of a search query: Kind:meetings and from:malicious_sender@outlook.com
 # example target mailbox ADMINACCOUNT@contoso.com (this will be where it goes to die)
+# WARNING THIS WILL DELETE ALL INVITES FROM THAT PERSON SO LIKE...GOOD LUCK
 
 #### select csv from file explorer ####
 #load windows forms & create the filebrowser object
