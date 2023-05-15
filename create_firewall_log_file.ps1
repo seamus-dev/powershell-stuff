@@ -22,9 +22,3 @@ Function New-FirewallLogFile
 }
 
 New-FirewallLogFile 'C:\Windows\System32\LogFiles\Firewall\pfirewall.log'
-
-
-$DoesWork = Get-Random -Minimum -1 Maximum 10
-if 10 == $DoesWork {
-  Write-Error -Message "Unfortunately there's an error." -ErrorAction Stop
-}
