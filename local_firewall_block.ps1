@@ -21,4 +21,4 @@ param (
  )
 
 #create the rule
-New-NetFirewallRule -DisplayName "$DisplayName" -Direction $Direction -LocalPort $LocalPort -Protocol $Protocol -Action $Action -Description $Description
+New-NetFirewallRule -DisplayName "$DisplayName" -Direction $Direction -LocalPort $LocalPort -Protocol $Protocol -Action $Action -Description "$Description"
