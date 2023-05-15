@@ -1,6 +1,6 @@
 #this will create the firewall log fire
 #due to problems, if you enable firewall logging through GPO, this does not get created
-#unfortunately, you do have to restart the system after this for it to actually get created so, have fun with that in your production environment
+#unfortunately, you do have to restart the system after this for it to actually get logged to so, have fun with that in your production environment
 # good luck out there -seamus
 Function New-FirewallLogFile
 {
